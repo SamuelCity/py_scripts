@@ -2,7 +2,11 @@
 A small collection of Python scripts that can help day to day work.
 
 ## Setup
-These scripts were built using Python 3.11 and use pipenv for dependency management. Once you've cloned this repo down you can get all the dependencies by running `pipenv install`.
+These scripts were built using Python 3.11 and use pipenv for dependency management. 
+
+Make sure you have Python > 3.11 installed. If you don't have pipenv installed you can install it with `pip install pipenv`.
+
+Once you've cloned this repo down you can get all the dependencies by running `pipenv install`.
 
 ## Scripts
 Below you will find a list of scripts, with their options and what they do.
