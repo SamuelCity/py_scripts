@@ -8,7 +8,7 @@ These scripts were built using Python 3.11 and use pipenv for dependency managem
 Below you will find a list of scripts, with their options and what they do.
 
 ### `log_level`
-This script allows you to easily change the log level of and services running in our Kubernetes cluster. The script takes two arguments.
+This script allows you to easily change the log level of and services running in our Kubernetes cluster. The script takes three arguments.
 
 - `-s --service`: The name of the service you wish to change log level. `<required>`
 - `-n --namespace`: The namespace the service is in. `<required>`
@@ -16,7 +16,7 @@ This script allows you to easily change the log level of and services running in
 
 Upon running the script you'll be prompted to change the log level to one of a few options. Once you select an option the script will port forward to each pod for you and change the log level.
 
-This script is intended for use with Spring Boot Applications and will change the level of the `com.gocity` unless the `-l` option is provided.
+This script is intended for use with Spring Boot Applications and will change the level of the `com.gocity` logger unless the `-l` option is provided.
 
 If the log level is changed successfully you'll see a `204` message in the output.
 
